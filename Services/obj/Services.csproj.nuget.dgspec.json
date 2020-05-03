@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Learning Concepts\\CodeLearning\\WebAPI_Core\\Services\\Services.csproj": {}
+    "C:\\Learning Concepts\\StoreInventory\\WebAPI_Core\\Services\\Services.csproj": {}
   },
   "projects": {
-    "C:\\Learning Concepts\\CodeLearning\\WebAPI_Core\\Data\\Data.csproj": {
+    "C:\\Learning Concepts\\StoreInventory\\WebAPI_Core\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Learning Concepts\\CodeLearning\\WebAPI_Core\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Learning Concepts\\StoreInventory\\WebAPI_Core\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Learning Concepts\\CodeLearning\\WebAPI_Core\\Data\\Data.csproj",
+        "projectPath": "C:\\Learning Concepts\\StoreInventory\\WebAPI_Core\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\admin1\\.nuget\\packages\\",
-        "outputPath": "C:\\Learning Concepts\\CodeLearning\\WebAPI_Core\\Data\\obj\\",
+        "outputPath": "C:\\Learning Concepts\\StoreInventory\\WebAPI_Core\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -81,14 +81,14 @@
         }
       }
     },
-    "C:\\Learning Concepts\\CodeLearning\\WebAPI_Core\\Repository\\Repository.csproj": {
+    "C:\\Learning Concepts\\StoreInventory\\WebAPI_Core\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Learning Concepts\\CodeLearning\\WebAPI_Core\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Learning Concepts\\StoreInventory\\WebAPI_Core\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Learning Concepts\\CodeLearning\\WebAPI_Core\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Learning Concepts\\StoreInventory\\WebAPI_Core\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\admin1\\.nuget\\packages\\",
-        "outputPath": "C:\\Learning Concepts\\CodeLearning\\WebAPI_Core\\Repository\\obj\\",
+        "outputPath": "C:\\Learning Concepts\\StoreInventory\\WebAPI_Core\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -107,8 +107,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Learning Concepts\\CodeLearning\\WebAPI_Core\\Data\\Data.csproj": {
-                "projectPath": "C:\\Learning Concepts\\CodeLearning\\WebAPI_Core\\Data\\Data.csproj"
+              "C:\\Learning Concepts\\StoreInventory\\WebAPI_Core\\Data\\Data.csproj": {
+                "projectPath": "C:\\Learning Concepts\\StoreInventory\\WebAPI_Core\\Data\\Data.csproj"
               }
             }
           }
@@ -146,14 +146,14 @@
         }
       }
     },
-    "C:\\Learning Concepts\\CodeLearning\\WebAPI_Core\\Services\\Services.csproj": {
+    "C:\\Learning Concepts\\StoreInventory\\WebAPI_Core\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Learning Concepts\\CodeLearning\\WebAPI_Core\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Learning Concepts\\StoreInventory\\WebAPI_Core\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Learning Concepts\\CodeLearning\\WebAPI_Core\\Services\\Services.csproj",
+        "projectPath": "C:\\Learning Concepts\\StoreInventory\\WebAPI_Core\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\admin1\\.nuget\\packages\\",
-        "outputPath": "C:\\Learning Concepts\\CodeLearning\\WebAPI_Core\\Services\\obj\\",
+        "outputPath": "C:\\Learning Concepts\\StoreInventory\\WebAPI_Core\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -172,11 +172,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Learning Concepts\\CodeLearning\\WebAPI_Core\\Data\\Data.csproj": {
-                "projectPath": "C:\\Learning Concepts\\CodeLearning\\WebAPI_Core\\Data\\Data.csproj"
+              "C:\\Learning Concepts\\StoreInventory\\WebAPI_Core\\Data\\Data.csproj": {
+                "projectPath": "C:\\Learning Concepts\\StoreInventory\\WebAPI_Core\\Data\\Data.csproj"
               },
-              "C:\\Learning Concepts\\CodeLearning\\WebAPI_Core\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Learning Concepts\\CodeLearning\\WebAPI_Core\\Repository\\Repository.csproj"
+              "C:\\Learning Concepts\\StoreInventory\\WebAPI_Core\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Learning Concepts\\StoreInventory\\WebAPI_Core\\Repository\\Repository.csproj"
               }
             }
           }

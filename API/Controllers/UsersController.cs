@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using API.Models;
+﻿using API.Models;
 using Data.EntityModels;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Services.User;
+using System;
+using System.Collections.Generic;
+using System.IO;
 
 namespace API.Controllers
 {

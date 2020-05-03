@@ -22,7 +22,6 @@ C:\Learning Concepts\StoreInventory\WebAPI_Core\Data\bin\Debug\netcoreapp3.1\Dat
 C:\Learning Concepts\StoreInventory\WebAPI_Core\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
 C:\Learning Concepts\StoreInventory\WebAPI_Core\Data\bin\Debug\netcoreapp3.1\Data.dll
 C:\Learning Concepts\StoreInventory\WebAPI_Core\Data\bin\Debug\netcoreapp3.1\Data.pdb
-C:\Learning Concepts\StoreInventory\WebAPI_Core\Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
 C:\Learning Concepts\StoreInventory\WebAPI_Core\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
 C:\Learning Concepts\StoreInventory\WebAPI_Core\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
 C:\Learning Concepts\StoreInventory\WebAPI_Core\Data\obj\Debug\netcoreapp3.1\Data.dll

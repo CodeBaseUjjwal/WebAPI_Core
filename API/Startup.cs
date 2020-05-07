@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 using Repository.UsersRepository;
 using Services.User;
 
@@ -43,6 +44,18 @@ namespace API
 			services.AddScoped<IUserService, UserService>();
 			services.AddScoped<DbContext, ApplicationDbContext>();
 			#endregion
+
+			#region Swagger Configuration
+			services.AddSwaggerGen(c =>
+			{
+				c.SwaggerDoc("v1", new OpenApiInfo
+				{
+					Version = "v1",
+					Title = "WebAPI_Core",
+					Description = "WebAPI for .NET Core",
+				});
+			});
+			#endregion
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,6 +65,12 @@ namespace API
 			{
 				app.UseDeveloperExceptionPage();
 			}
+
+			app.UseSwagger();
+			app.UseSwaggerUI(c =>
+			{
+				c.SwaggerEndpoint($"v1/swagger.json", "WebAPI Core for Store Inventory");
+			});
 
 			app.UseHttpsRedirection();
 
